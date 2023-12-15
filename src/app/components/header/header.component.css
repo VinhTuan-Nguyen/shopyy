@@ -4,7 +4,7 @@
 }
 
 .header-top a {
-    color: #fff;
+    color: var(--text-primary);
 }
 
 .header-top--sticky {
@@ -20,7 +20,6 @@
 
 .social-icons {
     background-image: url('../../../assets/social-icons.png');
-
 }
 
 .facebook-icon {
@@ -43,7 +42,7 @@
 }
 
 a:hover {
-    color: var(--nc-util-line-o) !important;
+    color: var(--text-primary-hover) !important;
 }
 
 .v-adjust:not(:first-child) {
@@ -70,5 +69,27 @@ ul > li {
 }
 
 .navbar-links:hover {
-    color:  var(--nc-util-line-o) !important;
+    color:  var(--text-primary-hover) !important;
+}
+
+.download-qr-code {
+    border-radius: 3px;
+    position: absolute;
+    top: 25px;
+}
+
+.download-qr-code > img {
+    width: 180px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.download-logo {
+    width: 4.375rem;
+    display: inline;
+    padding: 3px;
+}
+
+.download-logo img {
+    width: 100%;
 }
