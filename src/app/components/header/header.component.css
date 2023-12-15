@@ -43,7 +43,7 @@
 }
 
 a:hover {
-    color: #d6dad6 !important;
+    color: var(--nc-util-line-o) !important;
 }
 
 .v-adjust:not(:first-child) {
@@ -70,5 +70,5 @@ ul > li {
 }
 
 .navbar-links:hover {
-    color: #d6dad6 !important;
+    color:  var(--nc-util-line-o) !important;
 }
