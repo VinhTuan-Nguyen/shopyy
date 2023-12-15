@@ -1,0 +1,74 @@
+.header-top {
+    background: linear-gradient(-180deg,#f53d2d,#f63);
+    color: #fff;
+}
+
+.header-top a {
+    color: #fff;
+}
+
+.header-top--sticky {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.navbar-wrapper {
+    height: 2.125rem;
+}
+
+.social-icons {
+    background-image: url('../../../assets/social-icons.png');
+
+}
+
+.facebook-icon {
+    width: 16px;
+    height: 16px;
+    background-size: 487.5% 293.75%;
+    background-position: 8.064516129032258% 16.129032258064516%;
+}
+
+.instagram-icon {
+    width: 16px;
+    height: 16px;
+    background-size: 487.5% 293.75%;
+    background-position: 58.064516129032256% 16.129032258064516%;
+}
+
+.v-adjust {
+    font-size: .8125rem;
+    padding: 2px;
+}
+
+a:hover {
+    color: #d6dad6 !important;
+}
+
+.v-adjust:not(:first-child) {
+    margin-left: .5rem;
+    position: relative;
+}
+
+.v-adjust:not(:first-child)::before {
+    content: "";
+    height: 1rem;
+    border-left: 1px solid hsla(0,0%,100%,.22);
+    border-right: 1px solid hsla(0,0%,100%,.22);
+    position: absolute;
+    left: -4px;
+}
+
+ul > li {
+    list-style: none;
+}
+
+.navbar-links {
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.navbar-links:hover {
+    color: #d6dad6 !important;
+}
