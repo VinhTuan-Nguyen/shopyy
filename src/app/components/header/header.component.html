@@ -5,7 +5,7 @@
                 <div class="flex">
                     <a class="v-adjust" href>Kênh Người Bán</a>
                     <a class="v-adjust" href>Trở Thành Người Bán Shopyy</a>
-                    <a class="v-adjust" (mouseenter)="displayQR(true)" href>
+                    <a class="v-adjust" (mouseenter)="displayQR(true)" (click)="goToLink('/web')" href>
                         <section *ngIf="!isHidden">
                             <div (mouseleave)="displayQR(false)" class="download-qr-code">
                                 <img alt="download_qr_code"

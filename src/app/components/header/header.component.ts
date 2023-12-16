@@ -17,4 +17,8 @@ export class HeaderComponent {
   displayQR (hover: boolean) {
     this.isHidden = hover ? false : true;
   }
+
+  goToLink(url: string){
+    window.open(url, '_blank');
+  }
 }
