@@ -75,7 +75,8 @@ ul > li {
 .download-qr-code {
     border-radius: 3px;
     position: absolute;
-    top: 25px;
+    left: -4px;
+    padding-top: 25px;
 }
 
 .download-qr-code > img {
@@ -92,4 +93,9 @@ ul > li {
 
 .download-logo img {
     width: 100%;
+}
+
+.padding-lr {
+    padding-left: 8px;
+    padding-right: 8px;
 }

@@ -13,6 +13,7 @@ import { Component } from '@angular/core';
 
 export class HeaderComponent {
   isHidden = true;
+
   displayQR (hover: boolean) {
     this.isHidden = hover ? false : true;
   }
