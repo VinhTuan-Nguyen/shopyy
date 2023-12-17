@@ -1,0 +1,27 @@
+.download-qr-code {
+    border-radius: 3px;
+    position: absolute;
+    left: -4px;
+    padding-top: 20px;
+}
+
+.download-qr-code > img {
+    width: 180px;
+    height: 180px;
+    border-radius: 3px;
+}
+
+.download-logo {
+    width: 4.375rem;
+    display: inline;
+    padding: 3px;
+}
+
+.download-logo img {
+    width: 100%;
+}
+
+.padding-lr {
+    padding-left: 8px;
+    padding-right: 8px;
+}

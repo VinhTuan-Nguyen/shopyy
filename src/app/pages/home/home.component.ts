@@ -1,13 +1,14 @@
 import { Component } from '@angular/core';
-import { HeaderComponent } from '../../components/header/header.component';
+import { HeaderWithSearch_Layout } from '../../components/layouts/header/header-with-search/header-with-search.layout';
 
 @Component({
-  selector: 'app-home',
+  selector: 'home-page',
   standalone: true,
   imports: [
-    HeaderComponent
+    HeaderWithSearch_Layout
   ],
   templateUrl:  './home.component.html',
   styleUrl: './home.component.css'
 })
+
 export class HomeComponent {}
