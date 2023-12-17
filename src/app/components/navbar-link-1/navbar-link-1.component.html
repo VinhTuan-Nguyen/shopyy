@@ -3,7 +3,7 @@
     <a class="v-adjust" href>Trở Thành Người Bán Shopyy</a>
     <a class="v-adjust" (mouseenter)="displayQR(true)" (click)="goToLink('/web')" href>
         <section *ngIf="!isHidden" (mouseleave)="displayQR(false)">
-            <element-download-qr-code></element-download-qr-code>
+            <component-download-qr-code></component-download-qr-code>
         </section>
         <span>Tải ứng dụng</span>
     </a>

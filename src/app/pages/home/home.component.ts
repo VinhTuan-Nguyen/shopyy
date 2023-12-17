@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-import { HeaderWithSearch_Layout } from '../../layouts/header/header-with-search/header-with-search.layout';
+import { HeaderWithSearch_Layout } from '../../layouts/header-with-search/header-with-search.layout';
 
 @Component({
   selector: 'home-page',

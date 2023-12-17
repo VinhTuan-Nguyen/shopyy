@@ -22,7 +22,7 @@ a.v-adjust:hover {
 }
 
 .social-icons {
-    background-image: url('../../../../assets/social-icons.png');
+    background-image: url('/assets/social-icons.png');
 }
 
 .facebook-icon {
