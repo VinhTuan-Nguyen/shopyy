@@ -1,0 +1,9 @@
+.hot-deals {
+    height: 100%;
+
+    >a {
+        margin-top: auto;
+        margin-bottom: auto;
+        font-size: .75rem;
+    }
+}

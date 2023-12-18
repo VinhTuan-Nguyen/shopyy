@@ -1,10 +1,3 @@
-.download-qr-code {
-    border-radius: 3px;
-    position: absolute;
-    left: -4px;
-    padding-top: 20px;
-}
-
 .download-qr-code > img {
     width: 180px;
     height: 180px;

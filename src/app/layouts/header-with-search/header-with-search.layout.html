@@ -1,16 +1,18 @@
-<div class="container">
-    <section>
-        <nav class="navbar navbar-wrapper">
-            <component-navbar-link-1></component-navbar-link-1>
-            <component-navbar-link-2></component-navbar-link-2>
-        </nav>
-        <div class="flex search-wapper">
-            <a class="logo" href="/"><component-shopyy-logo></component-shopyy-logo></a>
-            <div>
+<div class="container header-with-search">
+    <nav  class="navbar navbar-wrapper">
+        <component-navbar-link-1></component-navbar-link-1>
+        <component-navbar-link-2></component-navbar-link-2>
+    </nav>
+    <div class="flex search-wrapper">
+        <a class="logo" href="/"><component-shopyy-logo></component-shopyy-logo></a>
+        <div class="searchbar">
+            <section>
                 <component-searchbar></component-searchbar>
+            </section>
+            <section class="hot-deals">
                 <component-hot-deals></component-hot-deals>
-            </div>
-            <div style="width: 80px;"></div>
+            </section>
         </div>
-    </section>
+        <div style="width: 100px;"></div>
+    </div>
 </div>

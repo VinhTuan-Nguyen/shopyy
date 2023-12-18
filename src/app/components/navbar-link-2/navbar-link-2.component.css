@@ -26,10 +26,14 @@ a.v-adjust:hover {
     padding-right: 5px;
 }
 
-ul>li {
-    list-style: none;
+li.navbar-links:hover * {
+    color: var(--text-primary-hover);
+
+    >svg {
+        fill: currentColor;
+    }
 }
 
-li.navbar-links>div>a:hover {
-    color: var(--text-primary-hover) !important;
+ul>li {
+    list-style: none;
 }

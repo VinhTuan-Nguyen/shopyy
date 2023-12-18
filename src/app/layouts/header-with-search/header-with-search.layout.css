@@ -1,4 +1,26 @@
+.header-with-search>nav {
+    height: 30px;
+}
 .navbar-wrapper {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.search-wrapper {
+    justify-content: space-between;
+}
+
+.logo {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.searchbar {
+    width: 100%;
+    height: 35px;
+}
+
+.hot-deals {
+    height: 40px;
 }
