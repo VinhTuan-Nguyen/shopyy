@@ -1,6 +1,10 @@
+.header-with-search {
+    padding-bottom: 10px;
+}
 .header-with-search>nav {
     height: 30px;
 }
+
 .navbar-wrapper {
     display: flex;
     justify-content: space-between;
@@ -9,11 +13,13 @@
 
 .search-wrapper {
     justify-content: space-between;
+    height: 60px;
 }
 
 .logo {
     margin-top: auto;
     margin-bottom: auto;
+    padding-right: 40px;
 }
 
 .searchbar {
@@ -21,6 +27,8 @@
     height: 35px;
 }
 
-.hot-deals {
-    height: 40px;
+.shopping-cart {
+    width: 40px;
+    padding-left: 65px;
+    padding-right: 65px;
 }

@@ -1,9 +1,13 @@
 .hot-deals {
-    height: 100%;
-
+    margin-top: 10px;
+    margin-bottom: 100px;
     >a {
         margin-top: auto;
         margin-bottom: auto;
         font-size: .75rem;
-    }
+    };
+}
+
+a.hot-deal-links:not(:first-child) {
+    margin-left: 15px;
 }
