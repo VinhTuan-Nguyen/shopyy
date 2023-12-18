@@ -19,15 +19,16 @@
     >button {
         border-style: none;
         margin-left: 3px;
-        width: 60px;
-        height: 30px;
+        width: 65px;
+        height: 35px;
         background: #fb5533;
         color: #fff;
         border-radius: 3px;
-
-        >svg {
-            margin-top: auto;
-            margin-bottom: auto;
-        }
     }
+}
+
+.searchbar--button {
+    padding-top: 4px;
+    width: 14px;
+    margin: auto;
 }
