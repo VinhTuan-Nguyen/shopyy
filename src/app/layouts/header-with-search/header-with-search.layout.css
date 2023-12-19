@@ -1,33 +1,45 @@
 .header-with-search {
-    padding-bottom: 10px;
-}
-.header-with-search>nav {
-    height: 30px;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-flow: column;
+
+    >nav {
+        height: 30px;
+    }
 }
 
 .navbar-wrapper {
     display: flex;
+    flex: 0 1 auto;
     justify-content: space-between;
-    margin-bottom: 20px;
 }
 
 .search-wrapper {
-    justify-content: space-between;
-    height: 60px;
+    flex: 1 1 auto;
+    padding-top: 16px;
+    height: 72px;
 }
 
 .logo {
-    margin-top: auto;
-    margin-bottom: auto;
+    float: left;
+    margin-top: 0;
     padding-right: 40px;
 }
 
-.searchbar {
+.searchbar-wrapper {
     width: 100%;
-    height: 35px;
+    height: 100%;
+}
+
+.search-keyword-wrapper {
+    flex-flow: 1 1 auto;
+    margin-top: auto;
+    margin-bottom: auto;
 }
 
 .shopping-cart {
+    float: right;
     width: 40px;
     padding-left: 65px;
     padding-right: 65px;

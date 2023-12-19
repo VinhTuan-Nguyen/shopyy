@@ -1,10 +1,11 @@
-.header-top {
-    background: linear-gradient(-180deg,#f53d2d,#f63);
-    color: #fff;
+.home-page {
+    min-width: 1200px;
 }
 
-.header-top a {
-    color: var(--text-primary);
+.header-top {
+    background: linear-gradient(-180deg, #f53d2d, #f63);
+    color: #fff;
+    height: 120px;
 }
 
 .header-top--sticky {
@@ -12,4 +13,10 @@
     top: 0;
     left: 0;
     right: 0;
+}
+
+.home-banner {
+    padding-top: 120px;
+    height: 5000px;
+    background-color: aquamarine;
 }

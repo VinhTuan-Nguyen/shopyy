@@ -7,4 +7,7 @@
             </section>
         </button>
     </form>
+    <div class="flex search-keyword">
+        <a  *ngFor="let item of searchKeyWords" class="search-keyword-links" href="/search?keyword={{item}}">{{ item }}</a>
+    </div>
 </div>

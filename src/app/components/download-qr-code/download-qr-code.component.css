@@ -1,7 +1,15 @@
-.download-qr-code > img {
-    width: 180px;
-    height: 180px;
-    border-radius: 3px;
+:host {
+    --download-border-qr: 3px;
+}
+
+.download-qr-code {
+    background-color: #fff;
+    border-radius: var(--download-border-qr);
+    >img {
+        width: 180px;
+        height: 180px;
+        border-radius: var(--download-border-qr);
+    }
 }
 
 .download-logo {
