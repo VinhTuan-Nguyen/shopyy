@@ -32,14 +32,13 @@
 }
 
 .search-keyword {
-    padding-top: 6px;
-    height: 1rem;
+    padding-top: 10px;
+    height: 1.5rem;
     flex-wrap: wrap;
     overflow-y: clip;
 
     >a {
         height: inherit;
-        text-align: center;
         font-size: .75rem;
     }
 }
