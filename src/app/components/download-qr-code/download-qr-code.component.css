@@ -1,10 +1,11 @@
 :host {
-    --download-border-qr: 3px;
+    --download-border-qr: 2px;
 }
 
 .download-qr-code {
     background-color: #fff;
     border-radius: var(--download-border-qr);
+
     >img {
         width: 180px;
         height: 180px;

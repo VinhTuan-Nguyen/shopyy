@@ -14,6 +14,7 @@ import { CommonModule } from '@angular/common';
 })
 
 export class SearchBar_Component {
+    serachPlaceHoder = "Shopyy bao ship 0Đ - Đăng ký ngay!";
     searchKeyWords = [
         "Áo 0đ",
         "Dép 0đ",
@@ -22,15 +23,11 @@ export class SearchBar_Component {
         "Vợt Cầu Lông",
         "Đơn 0k",
         "Giày Đá Bóng Giá Rẻ 1k",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
-        "Súng M1887",
+        "Súng M1887"
     ];
+    isHidden = true;
+
+    showListBox(e: boolean) {
+        this.isHidden = e ? false : true;
+    }
 }

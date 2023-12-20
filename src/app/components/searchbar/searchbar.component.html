@@ -1,13 +1,23 @@
 <div class="searchbar">
     <form role="search" class="flex">
-        <input type="text" placeholder="Shopyy bao ship 0Đ - Đăng ký ngay!">
+        <input type="text" placeholder={{serachPlaceHoder}}
+            (focus)="showListBox(true)" (focusout)="showListBox(false)">
         <button type="button">
             <section class="searchbar--button">
                 <icon-search></icon-search>
             </section>
         </button>
     </form>
+    <div *ngIf="!isHidden" class="searchbar-popover">
+        <a href class>
+            <span>{{serachPlaceHoder}}</span>
+            <img
+                src="https://down-vn.img.susercontent.com/file/29218d6681841ae13f18a6be04f6a57b"
+                height="24">
+        </a>
+    </div>
     <div class="flex search-keyword">
-        <a  *ngFor="let item of searchKeyWords" class="search-keyword-links" href="/search?keyword={{item}}">{{ item }}</a>
+        <a *ngFor="let item of searchKeyWords" class="search-keyword-links"
+            href="/search?keyword={{item}}">{{ item }}</a>
     </div>
 </div>
