@@ -1,0 +1,15 @@
+<div class="home-banner">
+    <div class="banner-wrapper">
+        <div class="carousel-wrapper"></div>
+        <div class="hotdeals-wrapper">
+            <component-hotdeals *ngFor="let hotdeal of Hotdeals"
+                [Hotdeal]="hotdeal">
+            </component-hotdeals>
+        </div>
+    </div>
+    <div class="distinction-wrapper">
+        <component-distinction *ngFor="let distinction of Distinctions"
+            [distinction]="distinction">
+        </component-distinction>
+    </div>
+</div>

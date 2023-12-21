@@ -1,0 +1,31 @@
+.distinction-item {
+    width: 100px;
+    height: 100px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
+.distinction-image {
+    height: 45px;
+    width: 45px;
+    background-size: contain;
+    margin-top: 10px;
+}
+
+.distinction-description {
+    margin-top: 10px;
+    display: -webkit-box;
+    text-overflow: ellipsis;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2;
+    font-size: .75rem;
+    line-height: .875rem;
+    max-width: 100px;
+    word-wrap: break-word;
+    overflow: hidden;
+    white-space: pre-line;
+    text-align: center;
+    color: #000;
+}
