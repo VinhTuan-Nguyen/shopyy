@@ -2,7 +2,7 @@ import { Component, Input } from '@angular/core';
 import { iDistinction } from '../../interfaces/distinction.interface';
 
 @Component({
-    selector: 'component-distinction',
+    selector: 'component_distinction',
     standalone: true,
     imports: [
     ],
@@ -10,6 +10,6 @@ import { iDistinction } from '../../interfaces/distinction.interface';
     styleUrl: './distinction.component.css'
 })
 
-export class Distinction_Component {
+export class component_Distinction {
     @Input() distinction!: iDistinction
 }

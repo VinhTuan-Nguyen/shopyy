@@ -6,8 +6,10 @@ import { RouterOutlet } from '@angular/router';
   standalone: true,
   imports: [RouterOutlet],
   template: `
-    <section class="content">
-      <router-outlet></router-outlet>
+    <section style="min-width:1230px">
+      <div style="height:100%; width:100%">
+        <router-outlet></router-outlet>
+      </div>
     </section>
   `
 })

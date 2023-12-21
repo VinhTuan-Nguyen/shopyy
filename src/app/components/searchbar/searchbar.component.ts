@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
-import { Search_Icon } from '../icons/search/search.icon';
+import { ico_Search } from '../icons/search/search.ico';
 import { CommonModule } from '@angular/common';
 
 @Component({
-    selector: 'component-searchbar',
+    selector: 'component_searchbar',
     standalone: true,
     imports: [
         CommonModule,
-        Search_Icon
+        ico_Search
     ],
     templateUrl: './searchbar.component.html',
     styleUrl: './searchbar.component.css'
 })
 
-export class SearchBar_Component {
+export class component_SearchBar {
     serachPlaceHoder = "Shopyy bao ship 0Đ - Đăng ký ngay!";
     searchKeyWords = [
         "Áo 0đ",

@@ -1,26 +1,26 @@
 import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
-import { Carousel_Component } from '../../components/carousel/carousel.component';
-import { Hotdeals_Component } from '../../components/hotdeals/hotdeals.component';
-import { Distinction_Component } from '../../components/distinction/distinction.component';
+import { component_Carousel } from '../../components/carousel/carousel.component';
+import { component_Hotdeal } from '../../components/hotdeal/hotdeal.component';
+import { component_Distinction } from '../../components/distinction/distinction.component';
 import { iDistinction } from '../../interfaces/distinction.interface';
 import { iHotDeal } from '../../interfaces/hotdeal.interface';
 
 @Component({
-  selector: 'layout-home-banner',
+  selector: 'layout_homebanner',
   standalone: true,
   imports: [
     CommonModule,
-    Carousel_Component,
-    Hotdeals_Component,
-    Distinction_Component
+    component_Carousel,
+    component_Hotdeal,
+    component_Distinction
   ],
   templateUrl: './home-banner.layout.html',
   styleUrl: './home-banner.layout.css'
 })
 
-export class HomeBanner_Layout {
-  Hotdeals: iHotDeal[] = [
+export class layout_HomeBanner {
+  Hotdeal: iHotDeal[] = [
     {
       url: "",
       srcImg: "https://cf.shopee.vn/file/vn-50009109-b5532dea8eb451c47ae8a14ef030774a_xhdpi"

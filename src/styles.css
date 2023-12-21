@@ -13,6 +13,7 @@ body {
     -webkit-text-size-adjust: none;
     transition: opacity ease-in 0.2s;
     margin: 0;
+    min-width: 1230px;
 }
 
 .flex {

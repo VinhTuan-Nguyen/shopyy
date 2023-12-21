@@ -1,11 +1,11 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'component-download-qr-code',
+    selector: 'component_downloadqrcode',
     standalone: true,
     imports: [],
     templateUrl: './download-qr-code.component.html',
     styleUrl: './download-qr-code.component.css'
 })
 
-export class DownLoadQRCode_Component {}
+export class component_DownLoadQRCode {}

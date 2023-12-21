@@ -1,22 +1,22 @@
 import { Component } from '@angular/core';
-import { NavbarLink1_Component } from '../../components/navbar-link-1/navbar-link-1.component';
-import { NavbarLink2_Component } from '../../components/navbar-link-2/navbar-link-2.component';
-import { ShopyyLogo_Component } from '../../components/shopyy-logo/shopyy-logo.component';
-import { SearchBar_Component } from '../../components/searchbar/searchbar.component';
-import { ShoppingCart_Icon } from '../../components/icons/shopping-cart/shopping-cart.icon';
+import { component_NavbarLink1 } from '../../components/navbar-link-1/navbar-link-1.component';
+import { component_NavbarLink2 } from '../../components/navbar-link-2/navbar-link-2.component';
+import { component_ShopyyLogo } from '../../components/shopyy-logo/shopyy-logo.component';
+import { component_SearchBar } from '../../components/searchbar/searchbar.component';
+import { ico_ShoppingCart } from '../../components/icons/shopping-cart/shopping-cart.ico';
 
 @Component({
-  selector: 'layout-header-with-search',
+  selector: 'layout_headerwithsearch',
   standalone: true,
   imports: [
-    NavbarLink1_Component,
-    NavbarLink2_Component,
-    ShopyyLogo_Component,
-    SearchBar_Component,
-    ShoppingCart_Icon
+    component_NavbarLink1,
+    component_NavbarLink2,
+    component_ShopyyLogo,
+    component_SearchBar,
+    ico_ShoppingCart
   ],
   templateUrl: './header-with-search.layout.html',
   styleUrl: './header-with-search.layout.css'
 })
 
-export class HeaderWithSearch_Layout { }
+export class layout_HeaderWithSearch { }

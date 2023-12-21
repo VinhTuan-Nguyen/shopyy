@@ -2,14 +2,16 @@
     <div class="banner-wrapper">
         <div class="carousel-wrapper"></div>
         <div class="hotdeals-wrapper">
-            <component-hotdeals *ngFor="let hotdeal of Hotdeals"
-                [Hotdeal]="hotdeal">
-            </component-hotdeals>
+            <component_hotdeal
+                *ngFor="let hotdeal of Hotdeal"
+                [hotdeal]="hotdeal">
+            </component_hotdeal>
         </div>
     </div>
     <div class="distinction-wrapper">
-        <component-distinction *ngFor="let distinction of Distinctions"
+        <component_distinction
+            *ngFor="let distinction of Distinctions"
             [distinction]="distinction">
-        </component-distinction>
+        </component_distinction>
     </div>
 </div>

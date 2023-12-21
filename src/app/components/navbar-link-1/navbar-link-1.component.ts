@@ -1,19 +1,19 @@
 import { Component } from '@angular/core';
-import { DownLoadQRCode_Component } from '../download-qr-code/download-qr-code.component';
+import { component_DownLoadQRCode } from '../download-qr-code/download-qr-code.component';
 import { CommonModule } from '@angular/common';
 
 @Component({
-    selector: 'component-navbar-link-1',
+    selector: 'component_navbarlink1',
     standalone: true,
     imports: [
         CommonModule,
-        DownLoadQRCode_Component
+        component_DownLoadQRCode
     ],
     templateUrl: './navbar-link-1.component.html',
     styleUrl: './navbar-link-1.component.css'
 })
 
-export class NavbarLink1_Component {
+export class component_NavbarLink1 {
     isHidden = true;
     displayQR(hover: boolean) {
         this.isHidden = hover ? false : true;
