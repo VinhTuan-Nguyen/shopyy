@@ -1,0 +1,9 @@
+<div class="carousel-component">
+    <ul [style.transform]="transformValue">
+        <li *ngFor="let slide of slides">
+            <a href="{{slide.url}}">
+                <div><img src="{{slide.carouselImg}}" alt></div>
+            </a>
+        </li>
+    </ul>
+</div>

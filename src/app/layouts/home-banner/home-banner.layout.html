@@ -1,17 +1,19 @@
-<div class="home-banner">
+<div class="home-banner-layout">
     <div class="banner-wrapper">
-        <div class="carousel-wrapper"></div>
-        <div class="hotdeals-wrapper">
-            <component_hotdeal
+        <div class="carousel-component-wrapper">
+            <carousel-component></carousel-component>
+        </div>
+        <div class="hotdeal-component-wrapper">
+            <hotdeal-component
                 *ngFor="let hotdeal of Hotdeal"
                 [hotdeal]="hotdeal">
-            </component_hotdeal>
+            </hotdeal-component>
         </div>
     </div>
-    <div class="distinction-wrapper">
-        <component_distinction
+    <div class="distinction-component-wrapper">
+        <distinction-component
             *ngFor="let distinction of Distinctions"
             [distinction]="distinction">
-        </component_distinction>
+        </distinction-component>
     </div>
 </div>

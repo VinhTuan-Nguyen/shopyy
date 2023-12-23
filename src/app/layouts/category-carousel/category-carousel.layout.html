@@ -1,0 +1,25 @@
+<div class="category-carousel-layout">
+    <div class="category-title">
+        <span>Danh mục</span>
+    </div>
+    <div class="category-list">
+        <ul [style.transform]="transformValue">
+            <li *ngFor="let item of CategoryItem">
+                <category-component [item]="item">
+                </category-component>
+            </li>
+        </ul>
+        <div class="arrow-wrapper">
+            <div class="arrow-node-wrapper node-left" (click)="prevSlide()"
+                [style.visibility]="currentIndex == 0 ? 'hidden' : 'visible'">
+                <arrow-node-component [destination]="'prev'">
+                </arrow-node-component>
+            </div>
+            <div class="arrow-node-wrapper node-right" (click)="nextSlide()"
+                [style.visibility]="currentIndex == totalIndex ? 'hidden' : 'visible'">
+                <arrow-node-component [destination]="'next'">
+                </arrow-node-component>
+            </div>
+        </div>
+    </div>
+</div>

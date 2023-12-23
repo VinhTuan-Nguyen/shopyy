@@ -1,17 +1,16 @@
-<div class="flex navbar-link-1">
-    <a class="v-adjust" href>Kênh Người Bán</a>
-    <a class="v-adjust" href>Trở Thành Người Bán Shopyy</a>
-    <a class="v-adjust" (mouseenter)="displayQR(true)" (click)="goToLink('/web')" href>
-        <section *ngIf="!isHidden" (mouseleave)="displayQR(false)" class="download">
-            <component_downloadqrcode></component_downloadqrcode>
+<div class="flex navbar-link-1-component">
+    <a href>Kênh Người Bán</a>
+    <a href>Trở Thành Người Bán Shopyy</a>
+    <a (mouseenter)="displayQR(true)" (click)="goToLink('/web')" href>
+        <section *ngIf="!isHidden" class="download"
+            (mouseleave)="displayQR(false)">
+            <download-qr-code-component></download-qr-code-component>
         </section>
         <span>Tải ứng dụng</span>
     </a>
-    <div class="flex v-adjust">
+    <div class="flex">
         <span style="margin-right: 3px;">Kết nối</span>
-        <div class="flex">
-            <a href class="facebook-icon social-icons margin-lr-3"></a>
-            <a href class="instagram-icon social-icons margin-lr-3"></a>
-        </div>
+        <a href class="facebook-icon social-icons margin-lr-3"></a>
+        <a href class="instagram-icon social-icons margin-lr-3"></a>
     </div>
 </div>

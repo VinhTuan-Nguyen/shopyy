@@ -6,7 +6,7 @@ import { component_SearchBar } from '../../components/searchbar/searchbar.compon
 import { ico_ShoppingCart } from '../../components/icons/shopping-cart/shopping-cart.ico';
 
 @Component({
-  selector: 'layout_headerwithsearch',
+  selector: 'header-with-search-layout',
   standalone: true,
   imports: [
     component_NavbarLink1,

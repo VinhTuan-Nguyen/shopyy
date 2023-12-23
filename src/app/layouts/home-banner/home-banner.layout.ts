@@ -7,7 +7,7 @@ import { iDistinction } from '../../interfaces/distinction.interface';
 import { iHotDeal } from '../../interfaces/hotdeal.interface';
 
 @Component({
-  selector: 'layout_homebanner',
+  selector: 'home-banner-layout',
   standalone: true,
   imports: [
     CommonModule,

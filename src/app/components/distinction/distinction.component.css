@@ -1,4 +1,4 @@
-.distinction-item {
+.distinction-component {
     width: 100px;
     height: 100px;
     display: flex;
@@ -17,7 +17,6 @@
 .distinction-description {
     margin-top: 10px;
     display: -webkit-box;
-    text-overflow: ellipsis;
     -webkit-box-orient: vertical;
     -webkit-line-clamp: 2;
     font-size: .75rem;

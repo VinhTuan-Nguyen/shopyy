@@ -1,0 +1,30 @@
+.carousel-component {
+    display: flex;
+    height: 253px;
+    width: 800px;
+    overflow: hidden;
+
+    >ul {
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        display: flex;
+        transition: transform .5s ease-in-out;
+
+        >li {
+            list-style: none;
+            height: 100%;
+
+            >a>div {
+                height: 100%;
+                width: 800px;
+
+                img {
+                    height: 100%;
+                    width: 100%;
+                    object-fit: fill;
+                }
+            }
+        }
+    }
+}

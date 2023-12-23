@@ -1,15 +1,22 @@
 :host {
-    --download-border-qr: 2px;
+    --border-box: 2px;
+    --v-padding: 8px;
+    --image-size: 180px:
 }
 
-.download-qr-code {
+.download-qr-code-component {
     background-color: #fff;
-    border-radius: var(--download-border-qr);
+    border-radius: var(--border-box);
 
     >img {
-        width: 180px;
-        height: 180px;
-        border-radius: var(--download-border-qr);
+        width: var(--image-size);
+        height: var(--image-size);
+        border-radius: var(--border-box);
+    }
+
+    >div {
+        padding-left: var(--v-padding);
+        padding-right: var(--v-padding);
     }
 }
 
@@ -17,13 +24,8 @@
     width: 4.375rem;
     display: inline;
     padding: 3px;
-}
 
-.download-logo img {
-    width: 100%;
-}
-
-.padding-lr {
-    padding-left: 8px;
-    padding-right: 8px;
+    >img {
+        width: 100%;
+    }
 }

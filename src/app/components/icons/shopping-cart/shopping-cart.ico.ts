@@ -1,11 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'ico_shoppingcart',
+    selector: 'shoppingcart-ico',
     standalone: true,
-    imports: [],
     templateUrl: './shopping-cart.ico.html',
-    styleUrl: './shopping-cart.ico.css'
 })
-
-export class ico_ShoppingCart {}
+export class ico_ShoppingCart { }

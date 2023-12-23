@@ -3,7 +3,7 @@ import { ico_Search } from '../icons/search/search.ico';
 import { CommonModule } from '@angular/common';
 
 @Component({
-    selector: 'component_searchbar',
+    selector: 'searchbar-component',
     standalone: true,
     imports: [
         CommonModule,
@@ -12,9 +12,8 @@ import { CommonModule } from '@angular/common';
     templateUrl: './searchbar.component.html',
     styleUrl: './searchbar.component.css'
 })
-
 export class component_SearchBar {
-    serachPlaceHoder = "Shopyy bao ship 0Đ - Đăng ký ngay!";
+    searchPlaceHoder = "Shopyy bao ship 0Đ - Đăng ký ngay!";
     searchKeyWords = [
         "Áo 0đ",
         "Dép 0đ",

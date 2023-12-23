@@ -1,4 +1,4 @@
-.home-banner {
+.home-banner-layout {
     height: 353px;
     display: flex;
     flex-flow: column;
@@ -8,41 +8,45 @@
     .banner-wrapper {
         flex: 0 1 auto;
         display: flex;
+        height: 253px;
+        margin-bottom: 4px;
         flex-flow: row;
 
-        .carousel-wrapper {
-            width: 100%;
+        .carousel-component-wrapper {
+            width: 800px;
+            flex: 1 0 auto;
             height: inherit;
-            flex: 0 1 auto;
             border-radius: 2px;
-            background-color: #79182d;
-            margin-bottom: 4px;
+            margin-right: 4px;
         }
 
-        .hotdeals-wrapper {
-            width: 395px;
+        .hotdeal-component-wrapper {
+            width: 100%;
             height: inherit;
-            flex: 1 0 auto;
-            margin-left: 4px;
-            margin-bottom: 4px;
             display: flex;
+            flex: 1 1 auto;
             flex-direction: column;
-            justify-content: center;
+            justify-content: space-between;
             align-items: stretch;
             flex-wrap: nowrap;
 
             * {
                 border-radius: 2px;
                 box-shadow: 0 .1px .7px 0 #9c9c9c;
+                height: 50%;
+            }
+
+            *:is(:first-child) {
+                margin-bottom: 2px;
             }
 
             *:not(:first-child) {
-                margin-top: 4px;
+                margin-top: 2px;
             }
         }
     }
 
-    .distinction-wrapper {
+    .distinction-component-wrapper {
         height: 100px;
         flex: 1 0 auto;
         border-radius: 2px;

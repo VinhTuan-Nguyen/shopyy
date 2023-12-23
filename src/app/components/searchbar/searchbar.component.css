@@ -1,8 +1,8 @@
-.searchbar {
+.searchbar-component {
     width: 100%;
 }
 
-.searchbar>form {
+.searchbar-component>form {
     background-color: #fff;
     border-radius: 3px;
     padding: 3px;

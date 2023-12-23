@@ -1,29 +1,51 @@
-.v-adjust {
-    font-size: .8125rem;
-    padding: 2px;
-}
+.navbar-link-2-component {
+    >ul {
+        list-style: none;
+        display: flex;
+        font-size: .8125rem;
+        padding: 2px;
+        margin: auto;
+    }
 
-.v-adjust:not(:first-child) {
-    margin-left: .5rem;
-    position: relative;
-}
+    >div {
+        margin: auto;
 
-.v-adjust:not(:first-child)::before {
-    content: "";
-    height: 1rem;
-    border-left: 1px solid hsla(0, 0%, 100%, .22);
-    border-right: 1px solid hsla(0, 0%, 100%, .22);
-    position: absolute;
-    left: -4px;
-}
+        >a {
+            margin-left: 6px;
+            font-size: .8125rem;
+            padding: 2px;
+        }
 
-a.v-adjust:hover {
-    color: var(--text-primary-hover);
+        >a:not(:first-child) {
+            margin-left: 6px;
+        }
+
+        >a:not(:first-child)::before {
+            content: "";
+            height: 1rem;
+            border-left: 1px solid hsla(0, 0%, 100%, .22);
+            border-right: 1px solid hsla(0, 0%, 100%, .22);
+            position: absolute;
+            left: -4px;
+        }
+    }
+
+    a:hover {
+        color: var(--text-primary-hover);
+    }
+
+    a:not(:first-child) {
+        position: relative;
+    }
 }
 
 .navbar-links {
-    padding-left: 5px;
-    padding-right: 5px;
+    padding-left: 3px;
+    padding-right: 3px;
+
+    >div {
+        align-items: center;
+    }
 }
 
 li.navbar-links:hover * {
@@ -32,8 +54,4 @@ li.navbar-links:hover * {
     >svg {
         fill: currentColor;
     }
-}
-
-ul>li {
-    list-style: none;
 }

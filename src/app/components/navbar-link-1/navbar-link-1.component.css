@@ -1,23 +1,23 @@
-.v-adjust {
+.navbar-link-1-component>* {
     font-size: .8125rem;
     padding: 2px;
 }
 
-.v-adjust:not(:first-child) {
+.navbar-link-1-component>*:not(:first-child) {
     margin-left: .5rem;
     position: relative;
 }
 
-.v-adjust:not(:first-child)::before {
+.navbar-link-1-component>*:not(:first-child)::before {
     content: "";
     height: 1rem;
-    border-left: 1px solid hsla(0,0%,100%,.22);
-    border-right: 1px solid hsla(0,0%,100%,.22);
+    border-left: 1px solid hsla(0, 0%, 100%, .22);
+    border-right: 1px solid hsla(0, 0%, 100%, .22);
     position: absolute;
     left: -4px;
 }
 
-a.v-adjust:hover {
+.navbar-link-1-component a:hover {
     color: var(--text-primary-hover);
 }
 

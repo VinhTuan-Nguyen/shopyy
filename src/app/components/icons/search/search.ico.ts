@@ -1,9 +1,8 @@
 import { Component } from '@angular/core';
 
 @Component({
-    selector: 'ico_search',
+    selector: 'search-ico',
     standalone: true,
     templateUrl: './search.ico.html'
 })
-
-export class ico_Search {}
+export class ico_Search { }

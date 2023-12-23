@@ -1,13 +1,13 @@
 import { Component } from '@angular/core';
-import { ico_Notification } from '../icons/notification/notification.ico';
+import { ico_Notify } from '../icons/notify/notify.ico';
 import { ico_Support } from '../icons/support/support.ico';
 import { ico_Language } from '../icons/language/language.ico';
 
 @Component({
-    selector: 'component_navbarlink2',
+    selector: 'navbar-link-2-component',
     standalone: true,
     imports: [
-        ico_Notification,
+        ico_Notify,
         ico_Support,
         ico_Language
     ],
