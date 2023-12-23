@@ -2,6 +2,7 @@ import { CommonModule } from '@angular/common';
 import { Component, OnInit } from '@angular/core';
 import { component_Category } from '../../components/category/category.component';
 import { component_ArrowNode } from '../../components/arrow-node/arrow-node.component';
+import { iCategoryItem } from '../../interfaces/categoryitem.interface';
 
 @Component({
   selector: 'category-carousel-layout',
@@ -16,6 +17,8 @@ import { component_ArrowNode } from '../../components/arrow-node/arrow-node.comp
 })
 export class layout_CategoryCarousel implements OnInit {
 
+  CategoryItem: iCategoryItem[] = [];
+
   currentIndex = 0;
   transformValue = '0%';
   totalIndex = 0;
@@ -24,8 +27,6 @@ export class layout_CategoryCarousel implements OnInit {
     prev: "prev",
     next: "next"
   };
-
-  CategoryItem: any;
 
   ngOnInit() {
     fetch('assets/dummy-data/category-item.json')
@@ -36,8 +37,7 @@ export class layout_CategoryCarousel implements OnInit {
         this.totalIndex = this.CategoryItem.length % 20 != 0 ? this.totalIndex : this.totalIndex - 1;
         this.remainLength = Math.round((this.CategoryItem.length / 20 - this.totalIndex) * 100);
         this.remainLength = this.remainLength % 5 == 0 ? this.remainLength + 5 : this.remainLength;
-      }
-      );
+      });
   }
 
   nextSlide() {

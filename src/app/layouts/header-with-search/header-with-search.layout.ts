@@ -18,5 +18,4 @@ import { logo_ShopyyBrand } from '../../components/logo/shopyy-brand/shopyy-bran
   templateUrl: './header-with-search.layout.html',
   styleUrl: './header-with-search.layout.css'
 })
-
 export class layout_HeaderWithSearch { }
