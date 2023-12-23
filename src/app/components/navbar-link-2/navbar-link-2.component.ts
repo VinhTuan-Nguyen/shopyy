@@ -14,5 +14,4 @@ import { ico_Language } from '../icons/language/language.ico';
     templateUrl: './navbar-link-2.component.html',
     styleUrl: './navbar-link-2.component.css'
 })
-
 export class component_NavbarLink2 {}

@@ -1,9 +1,9 @@
 import { Component } from '@angular/core';
 import { component_NavbarLink1 } from '../../components/navbar-link-1/navbar-link-1.component';
 import { component_NavbarLink2 } from '../../components/navbar-link-2/navbar-link-2.component';
-import { component_ShopyyLogo } from '../../components/shopyy-logo/shopyy-logo.component';
 import { component_SearchBar } from '../../components/searchbar/searchbar.component';
 import { ico_ShoppingCart } from '../../components/icons/shopping-cart/shopping-cart.ico';
+import { logo_ShopyyBrand } from '../../components/logo/shopyy-brand/shopyy-brand.logo';
 
 @Component({
   selector: 'header-with-search-layout',
@@ -11,9 +11,9 @@ import { ico_ShoppingCart } from '../../components/icons/shopping-cart/shopping-
   imports: [
     component_NavbarLink1,
     component_NavbarLink2,
-    component_ShopyyLogo,
     component_SearchBar,
-    ico_ShoppingCart
+    ico_ShoppingCart,
+    logo_ShopyyBrand,
   ],
   templateUrl: './header-with-search.layout.html',
   styleUrl: './header-with-search.layout.css'

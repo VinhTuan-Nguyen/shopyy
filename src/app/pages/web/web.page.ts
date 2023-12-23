@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 
 @Component({
-  selector: 'page_web',
+  selector: 'web-page',
   standalone: true,
   imports: [],
   templateUrl:  './web.page.html',
