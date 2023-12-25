@@ -1,0 +1,17 @@
+<div class="today-suggestion-layout">
+    <div class="suggestion-title">
+        <div><span>GỢI Ý HÔM NAY</span></div>
+    </div>
+    <div class="suggetion-list">
+        <ul>
+            <li *ngFor="let item of suggestionList" class="suggestion-item">
+                <item-component></item-component>
+            </li>
+        </ul>
+        <a href>
+            <div class="suggestion-expand">
+                <span>Xem Thêm</span>
+            </div>
+        </a>
+    </div>
+</div>
