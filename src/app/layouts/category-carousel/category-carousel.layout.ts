@@ -36,7 +36,7 @@ export class layout_CategoryCarousel implements OnInit {
         this.totalIndex = Math.floor(this.CategoryItem.length / 20);
         this.totalIndex = this.CategoryItem.length % 20 != 0 ? this.totalIndex : this.totalIndex - 1;
         this.remainLength = Math.round((this.CategoryItem.length / 20 - this.totalIndex) * 100);
-        this.remainLength = this.remainLength % 5 == 0 ? this.remainLength + 5 : this.remainLength;
+        this.remainLength = this.remainLength%2 != 0 ? this.remainLength + 5 : this.remainLength;
       });
   }
 
