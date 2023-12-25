@@ -14,7 +14,7 @@
     top: 0;
     left: 0;
     right: 0;
-    z-index: 1;
+    z-index: 1000;
 }
 
 .home-banner-wrapper {
@@ -22,13 +22,16 @@
     width: 100%;
     background-color: #fff;
     box-shadow: .1px .1px 2px #9c9c9c;
-    z-index: -1;
 }
 
 .home-main-wrapper {
     margin-bottom: 70px;
 }
 
-.category-carousel-wrapper {
+.home-main-wrapper>* {
     margin-top: 20px;
+}
+
+.today-suggestion-wrapper {
+    width: 100%;
 }
